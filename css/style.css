@@ -1,0 +1,46 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+		.navbar-brand{
+			text-transform:uppercase;
+			font-weight:300;
+			font-size:40px;
+			margin-left:1rem;
+			}
+		
+		.navbar-icon{
+			display:flex;
+			justify-content:flex-end;
+			
+		}
+		.navbar-icon a{
+			color:gray;
+			padding:0.4rem;
+			}
+		.navbar-expand-lg .navbar-nav .nav-link {
+			padding-right: 1.5rem;
+			padding-left: 0.5rem;
+			}
+		.navbar-icon a:hover{
+			color:black;
+		}
+		.navbar-nav a{
+			color:gray;
+			font-size:18px;
+			padding:0 20px;
+		}
+		.navbar-nav a::after{
+			content:"";
+			width:0;
+			height:2px;
+			background-color:green;
+			display:block;
+			transition:all 0.3s linear;
+			}
+		.navbar-nav a:hover::after{
+			width:35px;
+			}
+		
+		
